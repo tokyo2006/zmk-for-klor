@@ -1,0 +1,14 @@
+file_format: "1"
+id: klor
+name: Anglerfish
+type: shield
+url: https://github.com/vinniefranco/klor-splitk-keeb
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - klor_left
+  - klor_right
